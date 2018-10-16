@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="boot-starter-api" />
+        <module name="boot-starter-basic-meta" />
+        <module name="boot-starter-meta" />
+        <module name="spring-demo" />
+        <module name="spring-framework" />
+        <module name="spring-h2" />
+        <module name="spring-push" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="boot-starter-api" target="1.8" />
+      <module name="boot-starter-basic-meta" target="1.8" />
+      <module name="boot-starter-meta" target="1.8" />
+      <module name="boot-starter-parent" target="1.8" />
+      <module name="spring-demo" target="1.8" />
+      <module name="spring-framework" target="1.8" />
+      <module name="spring-h2" target="1.8" />
+      <module name="spring-push" target="1.8" />
+      <module name="SpringForAll" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

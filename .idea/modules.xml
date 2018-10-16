@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringForAll.iml" filepath="$PROJECT_DIR$/SpringForAll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-starter-parent/boot-starter-api/boot-starter-api.iml" filepath="$PROJECT_DIR$/boot-starter-parent/boot-starter-api/boot-starter-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-starter-parent/boot-starter-basic-meta/boot-starter-basic-meta.iml" filepath="$PROJECT_DIR$/boot-starter-parent/boot-starter-basic-meta/boot-starter-basic-meta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-starter-parent/boot-starter-meta/boot-starter-meta.iml" filepath="$PROJECT_DIR$/boot-starter-parent/boot-starter-meta/boot-starter-meta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-starter-parent/boot-starter-parent.iml" filepath="$PROJECT_DIR$/boot-starter-parent/boot-starter-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-demo/spring-demo.iml" filepath="$PROJECT_DIR$/spring-demo/spring-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-framework/spring-framework.iml" filepath="$PROJECT_DIR$/spring-framework/spring-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-h2/spring-h2.iml" filepath="$PROJECT_DIR$/spring-h2/spring-h2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-push/spring-push.iml" filepath="$PROJECT_DIR$/spring-push/spring-push.iml" />
+    </modules>
+  </component>
+</project>
