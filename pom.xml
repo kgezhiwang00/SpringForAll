@@ -14,6 +14,7 @@
         <module>spring-h2</module>
         <module>boot-starter-parent</module>
         <module>spring-framework</module>
+        <module>jdk1.8</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

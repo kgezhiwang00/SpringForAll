@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/boot-starter-parent/boot-starter-basic-meta/boot-starter-basic-meta.iml" filepath="$PROJECT_DIR$/boot-starter-parent/boot-starter-basic-meta/boot-starter-basic-meta.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot-starter-parent/boot-starter-meta/boot-starter-meta.iml" filepath="$PROJECT_DIR$/boot-starter-parent/boot-starter-meta/boot-starter-meta.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot-starter-parent/boot-starter-parent.iml" filepath="$PROJECT_DIR$/boot-starter-parent/boot-starter-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdk1.8/jdk1.8.iml" filepath="$PROJECT_DIR$/jdk1.8/jdk1.8.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-demo/spring-demo.iml" filepath="$PROJECT_DIR$/spring-demo/spring-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-framework/spring-framework.iml" filepath="$PROJECT_DIR$/spring-framework/spring-framework.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-h2/spring-h2.iml" filepath="$PROJECT_DIR$/spring-h2/spring-h2.iml" />

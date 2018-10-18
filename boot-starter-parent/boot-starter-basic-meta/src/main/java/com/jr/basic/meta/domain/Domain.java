@@ -32,7 +32,7 @@ public abstract class Domain implements Serializable {
         label = "ID",
         uiType = {UIType.HIDDEN}
     )
-    protected Long id;
+    public Long id;
     @Field(
         isList = false,
         isCreate = false,

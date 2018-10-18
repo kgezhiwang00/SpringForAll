@@ -141,7 +141,7 @@ public class MetaDomain implements Serializable {
     }
 
     public <T extends Domain> Class<T> getDomainClass() {
-        return this.domainClass;
+        return (Class<T>) this.domainClass;
     }
 
     public MetaField getField(String name) {
