@@ -1,5 +1,6 @@
 package com.spring.h2.domain;
 
+import com.jr.basic.meta.domain.Domain;
 import lombok.Data;
 
 import javax.persistence.*;
@@ -13,7 +14,7 @@ import javax.persistence.*;
 @Entity
 @Data
 @Table(name="t_user")
-public class User {
+public class User extends Domain {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
