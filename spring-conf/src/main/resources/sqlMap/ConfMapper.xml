@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.spring.conf.dao.IConfDao">
+  <insert id="insertServerInfo" parameterType="com.spring.conf.domain.ConfInfo">
+    INSERT INTO server_info
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="name != null">
+        name,
+      </if>
+      <if test="addDev != null">
+        add_dev,
+      </if>
+      <if test="addPro != null">
+        add_pro,
+      </if>
+      <if test="git != null">
+        git,
+      </if>
+      <if test="svn != null">
+        svn,
+      </if>
+      <if test="description != null">
+        description,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="name != null">
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="addDev != null">
+        #{addDev,jdbcType=VARCHAR},
+      </if>
+      <if test="addPro != null">
+        #{addPro,jdbcType=VARCHAR},
+      </if>
+      <if test="git != null">
+        #{git,jdbcType=VARCHAR},
+      </if>
+      <if test="svn != null">
+        #{svn,jdbcType=VARCHAR},
+      </if>
+      <if test="description != null">
+        #{description,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+
+  <update id="updateServerInfo" parameterType="com.spring.conf.domain.ConfInfo">
+    update server_info
+    <set>
+      <if test="name != null">
+        name = #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="addDev != null">
+        add_dev = #{addDev,jdbcType=VARCHAR},
+      </if>
+      <if test="addPro != null">
+        add_pro = #{addPro,jdbcType=VARCHAR},
+      </if>
+      <if test="git != null">
+        git = #{git,jdbcType=VARCHAR},
+      </if>
+      <if test="svn != null">
+        svn = #{svn,jdbcType=VARCHAR},
+      </if>
+      <if test="description != null">
+        description = #{description,jdbcType=VARCHAR},
+      </if>
+    </set>
+    WHERE id = #{id}
+  </update>
+  <select id="getServerInfo" parameterType="java.lang.String" resultType="com.spring.conf.domain.ConfInfo">
+    select
+         id,name,add_dev as addDev,add_pro as addPro,git,svn,description
+    from server_info
+    where 1 = 1
+    <if test="id != null">
+      and id = #{id,jdbcType=INTEGER}
+    </if>
+    <if test="name != null">
+      and name = #{name,jdbcType=INTEGER}
+    </if>
+  </select>
+</mapper>
