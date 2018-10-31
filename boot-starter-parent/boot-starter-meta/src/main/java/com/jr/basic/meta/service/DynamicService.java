@@ -1,54 +1,75 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by Fernflower decompiler)
-//
-
 package com.jr.basic.meta.service;
 
 import com.jr.basic.meta.domain.Domain;
 import com.jr.basic.meta.query.Query;
+
 import java.util.List;
-import java.util.Map;
 import java.util.Optional;
 
+/**
+ * @Auther: zcx
+ * @Date: 2018/10/22 14:54
+ * @Description: 动态service接口
+ */
 public interface DynamicService {
-    String DYNAMIC_CACHE_NAME = "DYNAMIC_CACHE";
 
-    <T extends Domain> Optional<List<T>> findAll(Class<T> var1);
+    /**
+     * 创建实体
+     * @param t
+     * @param <T>
+     * @return
+     */
+    <T extends Domain> T create(T t);
 
-    <T extends Domain> Optional<List<T>> findAll(Class<T> var1, Query<T> var2);
+    /**
+     * 查询所有数据
+     * @param clazz
+     * @param <T>
+     * @return
+     */
+    <T extends Domain> Optional<List<T>> findAll(Class<T> clazz);
 
-    <T extends Domain> Optional<List<Map<String, Object>>> findAggregate(Class<T> var1, Query<T> var2);
 
-    <T extends Domain> Optional<List<T>> findAll(Class<T> var1, List<Long> var2);
+    /**
+     * 根据查询条件获取所有数据
+     * @param clazz
+     * @param query
+     * @param <T>
+     * @return
+     */
+    <T extends Domain> Optional<List<T>> findAll(Class<T> clazz, Query<T> query);
 
-    <T extends Domain> long count(Class<T> var1, Query<T> var2);
+    /**
+     * 根据主键获取返回值
+     * @param clazz
+     * @param id
+     * @param <T>
+     * @return
+     */
+    <T extends Domain> Optional<T> get(Class<T> clazz,Long id);
 
-    <T extends Domain> Optional<T> get(Class<T> var1, Long var2);
+    /**
+     * 根据主键删除说
+     * @param clazz
+     * @param id
+     * @param <T>
+     */
+    <T extends Domain> void delete(Class<T> clazz,Long id);
 
-    <T extends Domain> Optional<T> get(Class<T> var1, Query<T> var2);
+    /**
+     * 删除domain
+     * @param <T>
+     */
+    <T extends Domain> void delete(T domain);
 
-    <T extends Domain> boolean exists(Class<T> var1, Long var2);
+    /**
+     * 更新domain
+     * @param domain
+     * @param <T>
+     * @return
+     */
+    <T extends Domain> T update(T domain);
 
-    <T extends Domain> T create(T var1);
 
-    <T extends Domain> List<T> create(Iterable<T> var1);
 
-    <T extends Domain> T update(T var1);
-
-    <T extends Domain> void update(Iterable<T> var1);
-
-    <T extends Domain> void delete(Class<T> var1, Long var2);
-
-    <T extends Domain> void delete(T var1);
-
-    <T extends Domain> void deleteInBatch(Iterable<T> var1);
-
-    <T extends Domain> void deleteAll(Class<T> var1);
-
-    <T extends Domain> void deleteAll(Class<T> var1, Query<T> var2);
-
-    void flush();
-
-    <T extends Domain> T patch(T var1);
 }

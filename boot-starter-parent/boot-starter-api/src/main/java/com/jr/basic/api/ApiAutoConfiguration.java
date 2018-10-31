@@ -5,23 +5,6 @@
 
 package com.jr.basic.api;
 
-import com.jr.basic.api.aop.security.ServiceAspect;
-import com.jr.basic.api.common.GraphQLConfig;
-import com.jr.basic.api.controller.ControllerExceptionHandler;
-import com.jr.basic.api.controller.GraphQLController;
-import com.jr.basic.api.service.SysApiManagerService;
-import com.jr.basic.api.service.fetcher.DomainAggregateFetcher;
-import com.jr.basic.api.service.fetcher.DomainCountFetcher;
-import com.jr.basic.api.service.fetcher.DomainCreateFetcher;
-import com.jr.basic.api.service.fetcher.DomainDeleteFetcher;
-import com.jr.basic.api.service.fetcher.DomainImportFetcher;
-import com.jr.basic.api.service.fetcher.DomainListFetcher;
-import com.jr.basic.api.service.fetcher.DomainLoadFetcher;
-import com.jr.basic.api.service.fetcher.DomainUpdateFetcher;
-import com.jr.basic.api.service.impl.DomainFieldVisibility;
-import com.jr.basic.api.service.impl.ServiceUtils;
-import com.jr.basic.api.service.impl.SysApiManagerServiceImpl;
-import com.jr.basic.meta.MetaAutoConfiguration;
 import org.springframework.boot.autoconfigure.AutoConfigureAfter;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;

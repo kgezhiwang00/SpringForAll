@@ -10,10 +10,13 @@
         <module name="boot-starter-basic-meta" />
         <module name="boot-starter-meta" />
         <module name="jdk1.8" />
+        <module name="spring-api-test" />
+        <module name="spring-conf" />
         <module name="spring-demo" />
         <module name="spring-framework" />
         <module name="spring-h2" />
         <module name="spring-push" />
+        <module name="spring-schedule" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,10 +25,14 @@
       <module name="boot-starter-meta" target="1.8" />
       <module name="boot-starter-parent" target="1.8" />
       <module name="jdk1.8" target="1.8" />
+      <module name="spring-api-test" target="1.8" />
+      <module name="spring-conf" target="1.8" />
       <module name="spring-demo" target="1.8" />
       <module name="spring-framework" target="1.8" />
       <module name="spring-h2" target="1.8" />
+      <module name="spring-mybatis" target="1.8" />
       <module name="spring-push" target="1.8" />
+      <module name="spring-schedule" target="1.8" />
       <module name="SpringForAll" target="1.8" />
     </bytecodeTargetLevel>
   </component>

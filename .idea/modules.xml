@@ -8,10 +8,13 @@
       <module fileurl="file://$PROJECT_DIR$/boot-starter-parent/boot-starter-meta/boot-starter-meta.iml" filepath="$PROJECT_DIR$/boot-starter-parent/boot-starter-meta/boot-starter-meta.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot-starter-parent/boot-starter-parent.iml" filepath="$PROJECT_DIR$/boot-starter-parent/boot-starter-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdk1.8/jdk1.8.iml" filepath="$PROJECT_DIR$/jdk1.8/jdk1.8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-api-test/spring-api-test.iml" filepath="$PROJECT_DIR$/spring-api-test/spring-api-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-conf/spring-conf.iml" filepath="$PROJECT_DIR$/spring-conf/spring-conf.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-demo/spring-demo.iml" filepath="$PROJECT_DIR$/spring-demo/spring-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-framework/spring-framework.iml" filepath="$PROJECT_DIR$/spring-framework/spring-framework.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-h2/spring-h2.iml" filepath="$PROJECT_DIR$/spring-h2/spring-h2.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-push/spring-push.iml" filepath="$PROJECT_DIR$/spring-push/spring-push.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-schedule/spring-schedule.iml" filepath="$PROJECT_DIR$/spring-schedule/spring-schedule.iml" />
     </modules>
   </component>
 </project>

@@ -7,9 +7,12 @@
     <file url="file://$PROJECT_DIR$/boot-starter-parent/boot-starter-basic-meta" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/boot-starter-parent/boot-starter-meta" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jdk1.8" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-api-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-conf" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-framework" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-h2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-push" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-schedule" charset="UTF-8" />
   </component>
 </project>

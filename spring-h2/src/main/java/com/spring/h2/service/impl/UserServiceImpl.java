@@ -27,7 +27,7 @@ public class UserServiceImpl implements IUserService {
 
     @Override
     public void createUser(User user) {
-
+        dynamicService.create(user);
     }
 
     @Override
